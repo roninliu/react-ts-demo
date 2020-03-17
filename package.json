@@ -1,0 +1,36 @@
+{
+  "name": "react-ts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "egg-bin dev",
+    "test": "",
+    "tsc": "tsc",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roninliu/react-ts-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roninliu/react-ts-demo/issues"
+  },
+  "homepage": "https://github.com/roninliu/react-ts-demo#readme",
+  "dependencies": {
+    "egg": "^2.26.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
